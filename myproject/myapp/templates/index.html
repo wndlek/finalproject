@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhee's Website</title>
+    <style>
+        header{
+          height: 200px;
+          background-color: rgb(174, 201, 186);
+        }
+        header a{
+          color: white;
+          padding: 30px 40px;
+          text-decoration: none;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+        }
+        nav{display: flex;
+          background-color: rgb(86, 86, 86);
+        }
+        nav a{
+          color: white;
+          padding: 14px 20px;
+          text-decoration: none;
+          text-align: center;
+        }
+        nav a:hover{
+          background-color: rgb(199, 199, 199);
+          color: black;
+        }
+
+        .hov-anim-box .animated {
+            display: none
+        }
+        
+        .hov-anim-box:hover .animated {
+            display: inline
+        }
+        
+        .hov-anim-box:hover .static {
+            display: none
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Hi, I'm Juhee
+        </h1>
+        <h1>
+            If you want to know about me, please click on the button below
+        </h1>
+    </header>
+    <nav>
+        <h3>
+            <a href="result">button</a>
+        </h3>
+    </nav>
+    <span class="hov-anim-box">
+        <img src="image1.gif" alt="" class="static">
+        <img src="image1.gif" alt="" class="animated">
+    </span>
+      
+
+    <img src="image1.gif" alt="" width="1500px">
+</body>
+</html>
